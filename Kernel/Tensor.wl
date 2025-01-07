@@ -12,7 +12,7 @@ Get["Yurie`Tensor`Usage`"];
 
 Get["Yurie`Tensor`Constant`"];
 
-Get["Yurie`Tensor`Utility`"];
+Get["Yurie`Tensor`Common`"];
 
 Get["Yurie`Tensor`Variable`"];
 

@@ -4,7 +4,7 @@
 (*Begin*)
 
 
-BeginPackage["Yurie`Tensor`Utility`"];
+BeginPackage["Yurie`Tensor`Common`"];
 
 
 Needs["Yurie`Tensor`"];
