@@ -4,19 +4,15 @@
 (*Begin*)
 
 
-BeginPackage["Yurie`Tensor`Common`"];
+BeginPackage["Yurie`Tensor`Utility`"];
 
 
-(*clear the states when loading.*)
-
-ClearAll["`*"];
+Needs["Yurie`Tensor`"];
 
 
 (* ::Section:: *)
 (*Public*)
 
-
-adder;
 
 
 (* ::Section:: *)
@@ -32,10 +28,6 @@ Begin["`Private`"];
 
 (* ::Subsection:: *)
 (*Main*)
-
-
-adder[x_] :=
-    x+1;
 
 
 (* ::Subsection:: *)

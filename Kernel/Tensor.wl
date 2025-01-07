@@ -10,9 +10,14 @@ BeginPackage["Yurie`Tensor`"];
 Get["Yurie`Tensor`Usage`"];
 
 
-Get["Yurie`Tensor`Sub`"];
+Get["Yurie`Tensor`Constant`"];
 
-Get["Yurie`Tensor`Sub2`"];
+Get["Yurie`Tensor`Utility`"];
+
+Get["Yurie`Tensor`Variable`"];
+
+
+Get["Yurie`Tensor`Core`"];
 
 
 (* ::Section:: *)

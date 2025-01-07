@@ -4,7 +4,7 @@
 (*Begin*)
 
 
-BeginPackage["Yurie`Tensor`Sub2`"];
+BeginPackage["Yurie`Tensor`Core`"];
 
 
 Needs["Yurie`Tensor`"];
@@ -13,9 +13,6 @@ Needs["Yurie`Tensor`"];
 (* ::Section:: *)
 (*Public*)
 
-
-addTwo::usage =
-    "add two.";
 
 
 (* ::Section:: *)
@@ -32,9 +29,6 @@ Begin["`Private`"];
 (* ::Subsection:: *)
 (*Main*)
 
-
-addTwo[x_Integer] :=
-    addOne@addOne@x;
 
 
 (* ::Subsection:: *)
